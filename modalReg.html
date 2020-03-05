@@ -1,0 +1,40 @@
+ <html>
+ <!-- ========================================== Modal for Registration ==================================================== -->
+
+	<div class="modal fade" id="reg" tabindex="-1" role="dialog" aria-labelledby="index" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="reg" >REGISTRATION</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+		<p id="text2">SIGN UP INFORMATION</p><br>
+		<p>Please enter your name<br>
+		<input id="Name"><br>
+		Enter email<br>
+		<input id="Email" placeholder="Enter your email"><br>
+		Contact number<br>
+		<input id="Contact"><br>
+		Enter Password<br>
+		<input id="Password" type="password"><br>
+		</p>
+		<p id="text2">SHIPPING INFORMATION</p><br>
+		<p>Address 1<br>
+		<input id="Address"><br>
+		Address 2<br>
+		<input id="signAddress2"><br>
+		Address 3<br>
+		<input id="signAddress3"><br>
+		County<br>
+		<input id="County"><br>
+		<div class="modal-footer">
+			<button onclick="saveReg()" class="btn btn-secondary" data-toggle="modal" data-target="#reg">Sign Up Now</button>
+		</div>
+		</p>
+    </div>
+  </div>
+</div>
+</html>
