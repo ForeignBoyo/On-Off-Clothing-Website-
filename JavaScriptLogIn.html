@@ -1,0 +1,27 @@
+<script> 
+
+
+	
+	// JavaScript for loging in (if the user enters the same email & password that is below it will output that the login is successful otherwise unsuccessful and the user will need to create his account 
+	function myFunction()
+	{
+		localStorage.myEmail = document.getElementById("email").value;
+		
+		if((document.getElementById("email").value == "123@123.com") && (document.getElementById("password").value == "12345"))
+		{
+			document.getElementById("logIn").innerHTML = "Log in Successful";
+		}
+		else
+		{
+			document.getElementById("logIn").innerHTML = "Log in Unsuccessful";
+		}
+			document.getElementById("email").value = "";
+		
+		localStorage.myPass = document.getElementById("password").value;
+		document.getElementById("password").value = "";
+	}
+	
+
+
+</script>
+
