@@ -1,0 +1,29 @@
+<script>
+
+// JavaScript for Registration if customer is new to our webpage
+	function saveReg()
+	{
+		let signName = document.getElementById("Name").value;
+		let signEmail = document.getElementById("Email").value;
+		let signTele = document.getElementById("Contact").value;
+		let signPass = document.getElementById("Password").value;
+		let signAddress1 = document.getElementById("Address").value;
+		let signCounty = document.getElementById("County").value;
+		
+		reg1.Name = signName;
+		reg1.Email = signEmail;
+		reg1.Contact = signTele;
+		reg1.Password = signPass;
+		reg1.Address = signAddress1;
+		reg1.County = signCounty;
+		localStorage.reg = JSON.stringify(reg1);
+	}
+		
+		let reg1 = {Name: "", Email: "", Contact: "", Password: "", Address: "", County: ""};
+
+		localStorage.item5 = JSON.stringify(reg1);
+		
+
+
+</script>
+
