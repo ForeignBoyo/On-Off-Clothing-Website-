@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	
+    <title>T-shirts</title>
+  </head>
+  <style>
+  
+  
+  #text1{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  }
+  
+  #fontBasket{
+  font-family: 'PT Sans Narrow', sans-serif;
+  }
+  
+  #textBg{
+  color: white;
+  font-size: 100%;
+  background-color: black;
+  border: 2px solid black;
+  border-style: solid;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  }
+
+  #text4{
+  color: white;
+  }
+
+   #bg{
+  background-color: black;
+  color: white;
+  }
+  
+  #stock{
+  color: green;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  }
+  
+  #text2{
+  text-align: ;
+  font-size: 150%;
+  background-color: black;
+  border: 2px solid #000000;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  }
+  </style>
+  <body
+
+    
+	 <!--  Animated Logo at the start of the main page, animates when page refreshed    -->
+	<nav class="navbar navbar-expand-lg" id="bg">
+  <a class="navbar-brand" id="text4" href="#">ON&OFF </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" id="text4"><i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="text4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PRODUCTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="t-shirt.html" >T-shirts</a>
+          <a class="dropdown-item" href="hoodies.html">Hoodies</a>
+		  <a class="dropdown-item" href="jeans.html">Jeans</a>
+		  <a class="dropdown-item" href="trackpants.html">Tracksuit pants</a>
+		  <a class="dropdown-item" href="foot.html">Footwear</a>
+		  <a class="dropdown-item" href="jersey.html">Jerseys</a>
+        </div>
+      </li>
+    </ul>
+	
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- End of Navigation bar -->
+
+
+ <!-- ================================== First modal for product Tommy Hilfiger  ======================================= -->
+	  
+	  <div class="modal fade" id="account1" tabindex="-1" role="dialog" aria-labelledby="t-shirts" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="account1" ><i class="fas fa-shopping-basket"></i> SHOPPING CART</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <p>
+		<b> <p>Order List</p></b><br>
+		<img src="wire.jpg"  height="100" width="100" alt="..."><br>
+		<br><b id="fontBasket">[PRODUCT NAME] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Price</b><br>
+		<p id="fontBasket">[TITLE]  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+		<p id="fontBasket"><b>[TITLE]</b>
+		<br>[TEXT]
+		<p id="fontBasket"><b>[TITLE]</p></b>
+		<p id="stock">[TEXT]</p>
+		<b id="fontBasket">[TEXT]</b><br> 
+		<input type="letters" size="2" style="width: 50 px" id="size">
+      </div>
+      <p>___________________________________________________________________________</p><br>
+		<p id="fontBasket"><b>Sub-total:</b></p><br>
+		<p id="fontBasket"><b>Standard Delivery:</b></p><br>
+		<p id="fontBasket"><b>Total:</b></p>
+		<!-- <button type="button" onclick="save()" class="btn btn-primary" data-toggle="modal" data-target="#signUp"> -->
+		
+		<button onclick="save()" class="btn btn-success" data-toggle="modal" data-target="#account1">
+		PURCHASE 
+		</button>
+		</p>
+    </div>
+  </div>
+</div>
+
+  <!-- =================================== Modal for product Nike ============================================================= -->
+  
+   <div class="modal fade" id="account2" tabindex="-1" role="dialog" aria-labelledby="t-shirts" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="account2" ><i class="fas fa-shopping-basket"></i>SHOPPING CART</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <p>
+		<b> <p>Order List</p></b><br>
+		<img src="wire2.png"  height="100" width="100" alt="..."><br>
+		<br><b id="fontBasket">[PRODUCT NAME] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Price</b><br>
+		<p id="fontBasket">[TITLE]  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+		<p id="fontBasket"><b>[TITLE]</b>
+		<br>[TEXT]
+		<p id="fontBasket"><b>[TITLE]</p></b>
+		<p id="stock">[TEXT]</p>
+		<b id="fontBasket">[TEXT]</b><br> 
+		<input type="letters" size="2" style="width: 50 px" id="sizeNike">
+      </div>
+      <p>___________________________________________________________________________</p><br>
+		<p id="fontBasket"><b>Sub-total:</b></p><br>
+		<p id="fontBasket"><b>Standard Delivery:</b></p><br>
+		<p id="fontBasket"><b>Total:</b></p>
+		<!-- <button type="button" onclick="save()" class="btn btn-primary" data-toggle="modal" data-target="#signUp"> -->
+		
+		<button onclick="save2()" class="btn btn-success" data-toggle="modal" data-target="#account3">
+		PURCHASE
+		</button>
+		</p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- ======================================================================================================================== -->
+
+<br><br>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-4 myClass2 border border-white">
+	<img src="wire.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="col-sm-4 myClass2 border border-white">
+	<p id="text1"><b>[PRODUCT NAME]</b></p>
+	<p id="text1"><b>[TITLE]</b></p>
+	_____________________________________________<br><br>
+	<p>[TITLE]</p>
+	
+	_____________________________________________<br><br>
+			<p><b>[TITLE]</b>
+	<br><br>
+	<img src="wire2.png" class="d-block w-100" alt="...">
+		<br><br>
+		<b>[TITLE]</b><br>
+		<img src="wire2.png" class="d-block w-100" alt="..."></p><br><br>
+		<b>[TITLE]</b><br>
+		<img src="wire2.png" class="d-block w-100" alt="..."></p>
+		
+		
+    </div>
+  </div>
+  
+		<br><br><button onclick="save()" class="btn btn-info" data-toggle="modal" data-target="#account1">Add to <i class="fas fa-shopping-basket"></i></button>
+	
+	 <br><br><br><br>
+	 </div>
+	 
+	 <!-- Bootstrap Container --> 
+	 <div class="container text-center">
+
+  <div class="row">
+    <div class="col-sm-4 myClass2 border border-white">
+	<img src="wire.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="col-sm-4 myClass2 border border-white">
+	<p id="text1"><b>[PRODUCT NAME]</b></p>
+	<p id="text1"><b>[TITLE]</b></p>
+	_____________________________________________<br><br>
+	<p><i class="fas fa-truck"></i>[TITLE]</p>
+	
+	_____________________________________________<br><br>
+			<p><b>[TITLE]</b>
+	<br><br>
+	<img src="wire2.png" class="d-block w-100" alt="...">
+		<br><br>
+		<b>[TITLE]</b><br>
+		<img src="wire2.png" class="d-block w-100" alt="..."> <br><br>
+		<b>[TITLE]</b><br>
+		<img src="wire2.png" class="d-block w-100" alt="..."></p>
+    </div>
+  </div>
+  
+		<!-- NIKE BUTTON FOR CART -->
+		<br><br><button onclick="save()" class="btn btn-info" data-toggle="modal" data-target="#account2">Add to <i class="fas fa-shopping-basket"></i></button>
+	<br><br><br>
+		
+		<br><p id="brand"></p><br></br>
+	</br><p id="price"></p></br>
+	<br><p id="size"></p></br></br>
+	
+	
+	 
+	 </div>
+	 <!-- End of container -->
+	 
+	   <div class="row text-center" id="textBg">
+    <div class="col-sm-4 myClass2">
+		<ul><b>Customer Care</b></ul>
+		<a href="sizeGuide.html" >Size guide </a><br>
+		<a href="delivery.html" >Delivery / Return Policy</a>
+    </div>
+    <div class="col-sm-4 myClass2">
+		<ul><b>About On&Off </b></ul>
+		<a href="aboutus.html">About us</a><br>
+		<a href="contactUs.html">Contact us</a>
+    </div>
+    <div class="col-sm-4 myClass2 ">     
+		<ul><b>Legal</b></ul>
+		<a href="terms.html">Terms and Conditions</a><br>
+		<a href="privacy.html">Privacy</a>
+		<p id="demo"></p>
+		<br><br>
+    </div>
+  </div>
+	
+
+		
+		
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+<script> 
+
+	
+	
+	//=================================( Product details TOMMY T-SHIRT ) ==================================================================
+	
+	function save(){
+		let productBrand = document.getElementById("brand").value;
+		let productPrice = document.getElementById("price").value;
+		let productSize = document.getElementById("size").value;
+		
+		product5.size = productSize;
+		localStorage.item4 = JSON.stringify(product5);
+		}
+		
+	let product5 = {brand: "Tommy Hilfiger T-shirt", price: "€45", size: ""};
+	
+	localStorage.item4 = JSON.stringify(product5);
+	
+	
+	//=============================( Product details NIKE T-SHIRT ) ==============================================
+	
+	function save2(){
+		let productBrand = document.getElementById("brand").value;
+		let productPrice = document.getElementById("price").value;
+		let productSize = document.getElementById("sizeNike").value;
+		product4.sizeNike = productSize;
+		localStorage.item3 = JSON.stringify(product4);
+		}
+		
+	let product4 = {brand: "Nike T-shirt", price: "€30", sizeNike: ""};
+
+	localStorage.item5 = JSON.stringify(product4);
+
+</script>
